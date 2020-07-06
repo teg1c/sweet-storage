@@ -27,6 +27,7 @@ storage.on('name', key => {
 
 ```javascript
 <script src='./storage/release/storage.js'></script>
+//<script src='//cdn.jsdelivr.net/gh/teg1c/sweet-storage@v1.0/release/storage.js'></script>
 storage.save('name', 'storage', 3000)
 storage.on('name', (key)=>{
   console.warn(`${key} deleted`)
